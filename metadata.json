@@ -1,0 +1,7 @@
+{
+  "name": "ScanPoint - QR Code Component",
+  "description": "A responsive, pixel-perfect QR code component built with React, TypeScript, and Tailwind CSS based on Frontend Mentor specifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
