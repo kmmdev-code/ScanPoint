@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import qrCode from './assets/images/image_qr_code_1791103965113.jpg';
 import { QrCode, ExternalLink, Sparkles, Info, Sliders, Download, Check, Code2, Globe, ShieldCheck } from 'lucide-react';
 
 export default function App() {
@@ -135,11 +136,11 @@ export default function App() {
         )}
 
         {/* The Authentic QR Code Component Card */}
-        <div className="w-[320px] sm:w-[340px] bg-white rounded-[20px] p-4 pb-10 shadow-[0_25px_25px_rgba(0,0,0,0.08)] flex flex-col items-center text-center transition-transform duration-300 hover:scale-[1.01]">
+        <div className="w-[320px] sm:w-[340px] bg-white rounded-[20px] p-4 pb-10 shadow-[0_25px_25px_rgba(0,0,0,0.08)] flex flex-col items-center text-center transition-transform duration-300 hover:-translate-y-1">
           {/* QR Code Image Container */}
           <div className="w-full rounded-[10px] overflow-hidden bg-[#3662e3] relative group">
             <img
-              src="./images/image-qr-code.png"
+              src={qrCode}
               alt="QR Code to Frontend Mentor"
               className="w-full h-auto object-cover block transition-transform duration-500 group-hover:scale-105"
             />
