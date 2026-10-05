@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import qrCode from './assets/images/image_qr_code_1791103965113.jpg';
 import { QrCode, ExternalLink, Sparkles, Info, Sliders, Download, Check, Code2, Globe, ShieldCheck } from 'lucide-react';
 
 export default function App() {
@@ -140,7 +139,7 @@ export default function App() {
           {/* QR Code Image Container */}
           <div className="w-full rounded-[10px] overflow-hidden bg-[#3662e3] relative group">
             <img
-              src={qrCode}
+              src="/images/image-qr-code.png"
               alt="QR Code to Frontend Mentor"
               className="w-full h-auto object-cover block transition-transform duration-500 group-hover:scale-105"
             />
